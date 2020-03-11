@@ -8,11 +8,13 @@ public class Watermelon {
       
 		int cnt = 0;
 		cnt = n / 2;
+		System.out.println(cnt);
 		
 		for (int i = 0; i < cnt; i++) {
 			answer += waterMelon;
 		}
-
+		
+		// 홀수는 마지막에 한글자 추가 
 		if(n % 2 != 0) {
 			answer += "수";
 		}
