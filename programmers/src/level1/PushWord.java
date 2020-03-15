@@ -3,7 +3,6 @@ package level1;
 public class PushWord {
 	public String push(String s, int n) {
 		String answer = "";
-
 		char[] arr = s.toCharArray();	
 		
 		int uni = 0;
@@ -29,10 +28,7 @@ public class PushWord {
 					if(uni > 122) {
 						uni -= 26;
 					}
-					
 				}
-			}else {
-				uni = uni;
 			}
 			uniChar = (char)uni;
 			answer += uniChar;
